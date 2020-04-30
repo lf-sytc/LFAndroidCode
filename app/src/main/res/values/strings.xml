@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LFAndroidCode</string>
+    <string name="main_list_button1">UI List</string>
+    <string name="main_list_button2">Layout List</string>
 </resources>

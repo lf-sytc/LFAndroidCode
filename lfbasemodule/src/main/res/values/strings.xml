@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LFBaseModule</string>
+    <string name="title_activity_lfbase_list_view">LFBaseListViewActivity</string>
+</resources>
