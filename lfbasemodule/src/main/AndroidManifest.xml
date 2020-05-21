@@ -3,7 +3,7 @@
     package="com.example.lfbasemodule">
 
     <application>
-        <activity android:name=".LFBaseListViewActivity"></activity>
+        <activity android:name=".BaseRecyclerViewActitity.LFBaseRecyclerViewActivity"></activity>
     </application>
 
 </manifest>

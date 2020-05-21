@@ -2,11 +2,24 @@ package com.example.lfandroidcode.main;
 
 public class MainItemBean {
 
-    public MainItemBean(String title,int type){
-        super();
-        setItemTitle(title);
-        setType(type);
+
+    public Class getmClass() {
+        return mClass;
     }
+
+    public void setmClass(Class mClass) {
+        this.mClass = mClass;
+    }
+
+    public MainItemBean(Class mClass, String itemTitle, int type) {
+        this.mClass = mClass;
+        ItemTitle = itemTitle;
+        Type = type;
+    }
+
+    public Class mClass;
+
+
 
     public String getItemTitle() {
         return ItemTitle;

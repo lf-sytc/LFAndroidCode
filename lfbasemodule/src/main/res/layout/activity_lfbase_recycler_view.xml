@@ -4,16 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".layoutList.LayoutListActivity">
+    tools:context=".BaseRecyclerViewActitity.LFBaseRecyclerViewActivity">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:background="#666666"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.lfbasemodule.BaseActivity.LFBaseTitle
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"/>
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lfbase_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
     </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
